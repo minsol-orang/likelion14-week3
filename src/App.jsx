@@ -11,10 +11,11 @@ const Container = styled.div`
   height: 100vh;
   background-color: #ffe0f7;
   flex-direction: column;
+  gap : 8px;
+  
 `;
 
 function App() {
-  const [text, setText] = useState('');
   const [memos, setMemos] = useState([]);
 
   function putMemo(text) {
